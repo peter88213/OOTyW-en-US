@@ -7,6 +7,8 @@
 
 Option Explicit
 
+Dim isInitialized as boolean
+
 &apos; ----------------------------------------------------------------------
 &apos; Define language specific normal quotes
 &apos; ----------------------------------------------------------------------
