@@ -10,8 +10,7 @@
                <value/>
             </prop>
             <prop oor:name="Title" oor:type="xs:string">
-               <value xml:lang="en">Help</value>
-               <value xml:lang="de">Hilfe</value>
+               <value xml:lang="en">curly en-US Help</value>
             </prop>
             <prop oor:name="URL" oor:type="xs:string">
                <value>vnd.sun.star.script:curly_en-US.help.show_help?language=Basic&amp;location=application</value>
@@ -203,7 +202,6 @@
                            </prop>
                            <prop oor:name="Title" oor:type="xs:string">
                               <value xml:lang="en">Help</value>
-                              <value xml:lang="de">Hilfe</value>
                            </prop>
                            <prop oor:name="URL" oor:type="xs:string">
                               <value>vnd.sun.star.script:curly_en-US.help.show_help?language=Basic&amp;location=application</value>
@@ -465,7 +463,6 @@
                   </prop>
                   <prop oor:name="Title" oor:type="xs:string">
                      <value xml:lang="en">Help</value>
-                     <value xml:lang="de">Hilfe</value>
                   </prop>
                   <prop oor:name="URL" oor:type="xs:string">
                      <value>vnd.sun.star.script:curly_en-US.help.show_help?language=Basic&amp;location=application</value>
