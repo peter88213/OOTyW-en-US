@@ -13,7 +13,7 @@
  [en-GB](https://peter88213.github.io/curly-en-GB), 
  [de-DE](https://peter88213.github.io/curly-de-DE), 
  [de-CH](https://peter88213.github.io/curly-de-CH), 
- [fr-FR]((https://peter88213.github.io/curly-fr-FR)).
+ [fr-FR](https://peter88213.github.io/curly-fr-FR).
 
 
 * Convert from one language to another via exchange format.
