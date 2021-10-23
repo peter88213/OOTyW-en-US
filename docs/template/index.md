@@ -55,11 +55,13 @@ Download the variant that matches your Office installation:
 
 [Changelog](changelog)
 
-
 ## Usage
 
 See the [instructions for use](usage)
 
+## Get updates
+
+This extension supports the update mechanism of OpenOffice/LibreOffice. You can let the Extension Manager check for updates from time to time to get the latest release.
 
 ## Credits
 
