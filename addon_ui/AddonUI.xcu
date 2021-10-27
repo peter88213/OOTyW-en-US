@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" 
+ xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+ oor:name="Addons" oor:package="org.openoffice.Office">
+   <node oor:name="AddonUI">
+
+      <node oor:name="OfficeHelp">
+         <node oor:name="org.peter88213.curly_en-US" oor:op="replace">
+            <prop oor:name="Context" oor:type="xs:string">
+               <value/>
+            </prop>
+            <prop oor:name="Title" oor:type="xs:string">
+               <value xml:lang="en">curly en-US Help</value>
+            </prop>
+            <prop oor:name="URL" oor:type="xs:string">
+               <value>vnd.sun.star.script:curly_en-US.help.show_help?language=Basic&amp;location=application</value>
+            </prop>
+            <prop oor:name="Target" oor:type="xs:string">
+               <value>_self</value>
+            </prop>
+         </node>
+      </node>
+
+      <node oor:name="OfficeMenuBarMerging">
+         <node oor:name="org.peter88213.curly_en-US" oor:op="replace">
+            <node oor:name="N001" oor:op="replace">
+               <prop oor:name="MergeContext" oor:type="xs:string">
+                  <value>com.sun.star.text.TextDocument</value>
+               </prop>
+               <prop oor:name="MergePoint" oor:type="xs:string">
+                  <value>.uno:FormatMenu\.uno:PageDialog</value>
+               </prop>
+               <prop oor:name="MergeCommand" oor:type="xs:string">
+                  <value>AddAfter</value>
+               </prop>
+               <prop oor:name="MergeFallback" oor:type="xs:string">
+                  <value>AddLast</value>
+               </prop>
+               <node oor:name="MenuItems">
+                  <node oor:name="N002" oor:op="replace">
+                     <prop oor:name="URL" oor:type="xs:string">
+                        <value>private:separator</value>
+                     </prop>
+                  </node>
+                  <node oor:name="N003" oor:op="replace">
+                     <prop oor:name="Context" oor:type="xs:string">
+                        <value/>
+                     </prop>
+                     <prop oor:name="Title" oor:type="xs:string">
+                        <value>curly en-US</value>
+                     </prop>
+                     <node oor:name="Submenu">
+                        <node oor:name="N004" oor:op="replace">
+                           <prop oor:name="Context" oor:type="xs:string">
+                              <value/>
+                           </prop>
+                           <prop oor:name="Title" oor:type="xs:string">
+                              <value xml:lang="en">Format all to AE style</value>
+                           </prop>
+                           <prop oor:name="URL" oor:type="xs:string">
+                              <value>vnd.sun.star.script:curly_en-US.QM_en_US.Main?language=Basic&amp;location=application</value>
+                           </prop>
+                           <prop oor:name="Target" oor:type="xs:string">
+                              <value>_self</value>
+                           </prop>
+                        </node>
+                        <node oor:name="N005" oor:op="replace">
+                           <prop oor:name="Context" oor:type="xs:string">
+                              <value/>
+                           </prop>
+                           <prop oor:name="Title" oor:type="xs:string">
+                              <value xml:lang="en">Back to typewriter style</value>
+                           </prop>
+                           <prop oor:name="URL" oor:type="xs:string">
+                              <value>vnd.sun.star.script:curly_en-US.QM_en_US.TypewriterView?language=Basic&amp;location=application</value>
+                           </prop>
+                           <prop oor:name="Target" oor:type="xs:string">
+                              <value>_self</value>
+                           </prop>
+                        </node>
+                        <node oor:name="N006" oor:op="replace">
+                           <prop oor:name="URL" oor:type="xs:string">
+                              <value>private:separator</value>
+                           </prop>
+                        </node>
+                        <node oor:name="N007" oor:op="replace">
+                           <prop oor:name="Context" oor:type="xs:string">
+                              <value/>
+                           </prop>
+                           <prop oor:name="Title" oor:type="xs:string">
+                              <value xml:lang="en">Convert quotes into exchange format</value>
+                           </prop>
+                           <prop oor:name="URL" oor:type="xs:string">
+                              <value>vnd.sun.star.script:curly_en-US.QM_en_US.SubstituteQuotes?language=Basic&amp;location=application</value>
+                           </prop>
+                           <prop oor:name="Target" oor:type="xs:string">
+                              <value>_self</value>
+                           </prop>
+                        </node>
+                        <node oor:name="N008" oor:op="replace">
+                           <prop oor:name="URL" oor:type="xs:string">
+                              <value>private:separator</value>
+                           </prop>
+                        </node>
+                        <node oor:name="N009" oor:op="replace">
+                           <prop oor:name="Context" oor:type="xs:string">
+                              <value/>
+                           </prop>
+                           <prop oor:name="Title" oor:type="xs:string">
+                              <value xml:lang="en">Number sign to apostrophe (# → ’)</value>
+                           </prop>
+                           <prop oor:name="URL" oor:type="xs:string">
+                              <value>vnd.sun.star.script:curly_en-US.Common.Apostrophe?language=Basic&amp;location=application</value>
+                           </prop>
+                           <prop oor:name="Target" oor:type="xs:string">
+                              <value>_self</value>
+                           </prop>
+                        </node>
+                        <node oor:name="N010" oor:op="replace">
+                           <prop oor:name="Context" oor:type="xs:string">
+                              <value/>
+                           </prop>
+                           <prop oor:name="Title" oor:type="xs:string">
+                              <value xml:lang="en">Three periods to ellipsis (... → …)</value>
+                           </prop>
+                           <prop oor:name="URL" oor:type="xs:string">
+                              <value>vnd.sun.star.script:curly_en-US.Common.Ellipsis?language=Basic&amp;location=application</value>
+                           </prop>
+                           <prop oor:name="Target" oor:type="xs:string">
+                              <value>_self</value>
+                           </prop>
+                        </node>
+                        <node oor:name="N011" oor:op="replace">
+                           <prop oor:name="Context" oor:type="xs:string">
+                              <value/>
+                           </prop>
+                           <prop oor:name="Title" oor:type="xs:string">
+                              <value xml:lang="en">Two hyphens to em-dash (-- → —)</value>
+                           </prop>
+                           <prop oor:name="URL" oor:type="xs:string">
+                              <value>vnd.sun.star.script:curly_en-US.Common.Em_dash?language=Basic&amp;location=application</value>
+                           </prop>
+                           <prop oor:name="Target" oor:type="xs:string">
+                              <value>_self</value>
+                           </prop>
+                        </node>
+                        <node oor:name="N012" oor:op="replace">
+                           <prop oor:name="Context" oor:type="xs:string">
+                              <value/>
+                           </prop>
+                           <prop oor:name="Title" oor:type="xs:string">
+                              <value xml:lang="en">Em-dash to two hyphens (— → --)</value>
+                           </prop>
+                           <prop oor:name="URL" oor:type="xs:string">
+                              <value>vnd.sun.star.script:curly_en-US.Revert.Dash?language=Basic&amp;location=application</value>
+                           </prop>
+                           <prop oor:name="Target" oor:type="xs:string">
+                              <value>_self</value>
+                           </prop>
+                        </node>
+                        <node oor:name="N013" oor:op="replace">
+                           <prop oor:name="URL" oor:type="xs:string">
+                              <value>private:separator</value>
+                           </prop>
+                        </node>
+                        <node oor:name="N014" oor:op="replace">
+                           <prop oor:name="Context" oor:type="xs:string">
+                              <value/>
+                           </prop>
+                           <prop oor:name="Title" oor:type="xs:string">
+                              <value xml:lang="en">Show direct speech (works with AE style quotation marks)</value>
+                           </prop>
+                           <prop oor:name="URL" oor:type="xs:string">
+                              <value>vnd.sun.star.script:curly_en-US.QM_en_US.ShowDirectSpeech?language=Basic&amp;location=application</value>
+                           </prop>
+                           <prop oor:name="Target" oor:type="xs:string">
+                              <value>_self</value>
+                           </prop>
+                        </node>
+                        <node oor:name="N015" oor:op="replace">
+                           <prop oor:name="Context" oor:type="xs:string">
+                              <value/>
+                           </prop>
+                           <prop oor:name="Title" oor:type="xs:string">
+                              <value xml:lang="en">Back to standard view</value>
+                           </prop>
+                           <prop oor:name="URL" oor:type="xs:string">
+                              <value>vnd.sun.star.script:curly_en-US.QM_en_US.StandardView?language=Basic&amp;location=application</value>
+                           </prop>
+                           <prop oor:name="Target" oor:type="xs:string">
+                              <value>_self</value>
+                           </prop>
+                        </node>
+                        <node oor:name="N016" oor:op="replace">
+                           <prop oor:name="URL" oor:type="xs:string">
+                              <value>private:separator</value>
+                           </prop>
+                        </node>
+                        <node oor:name="N017" oor:op="replace">
+                           <prop oor:name="Context" oor:type="xs:string">
+                              <value/>
+                           </prop>
+                           <prop oor:name="Title" oor:type="xs:string">
+                              <value xml:lang="en">Help</value>
+                           </prop>
+                           <prop oor:name="URL" oor:type="xs:string">
+                              <value>vnd.sun.star.script:curly_en-US.help.show_help?language=Basic&amp;location=application</value>
+                           </prop>
+                           <prop oor:name="Target" oor:type="xs:string">
+                              <value>_self</value>
+                           </prop>
+                        </node>
+                     </node>
+                  </node>
+               </node>
+            </node>
+         </node>
+      </node>
+
+      <node oor:name="OfficeToolBar">
+         <node oor:name="org.peter88213.curly_en-US.TB1" oor:op="replace">
+            <node oor:name="N001" oor:op="replace">
+               <prop oor:name="Context" oor:type="xs:string">
+                  <value>com.sun.star.text.TextDocument</value>
+               </prop>
+               <prop oor:name="Title" oor:type="xs:string">
+                  <value xml:lang="en">Convert ellipses and apostrophes</value>
+               </prop>
+               <prop oor:name="URL" oor:type="xs:string">
+                  <value>vnd.sun.star.script:curly_en-US.Common.Main?language=Basic&amp;location=application</value>
+               </prop>
+               <prop oor:name="Target" oor:type="xs:string">
+                  <value>_self</value>
+               </prop>
+            </node>
+            <node oor:name="N002" oor:op="replace">
+               <prop oor:name="Context" oor:type="xs:string">
+                  <value>com.sun.star.text.TextDocument</value>
+               </prop>
+               <prop oor:name="Title" oor:type="xs:string">
+                  <value xml:lang="en">em-dash to two hyphens (— → --)</value>
+               </prop>
+               <prop oor:name="URL" oor:type="xs:string">
+                  <value>vnd.sun.star.script:curly_en-US.Revert.Dash?language=Basic&amp;location=application</value>
+               </prop>
+               <prop oor:name="Target" oor:type="xs:string">
+                  <value>_self</value>
+               </prop>
+            </node>
+            <node oor:name="N003" oor:op="replace">
+               <prop oor:name="Context" oor:type="xs:string">
+                  <value>com.sun.star.text.TextDocument</value>
+               </prop>
+               <prop oor:name="Title" oor:type="xs:string">
+                  <value xml:lang="en">two hyphens to em-dash (-- → —)</value>
+               </prop>
+               <prop oor:name="URL" oor:type="xs:string">
+                  <value>vnd.sun.star.script:curly_en-US.Common.Em_dash?language=Basic&amp;location=application</value>
+               </prop>
+               <prop oor:name="Target" oor:type="xs:string">
+                  <value>_self</value>
+               </prop>
+            </node>
+            <node oor:name="N004" oor:op="replace">
+               <prop oor:name="URL" oor:type="xs:string">
+                  <value>private:separator</value>
+               </prop>
+            </node>
+            <node oor:name="N005" oor:op="replace">
+               <prop oor:name="Context" oor:type="xs:string">
+                  <value>com.sun.star.text.TextDocument</value>
+               </prop>
+               <prop oor:name="Title" oor:type="xs:string">
+                  <value xml:lang="en">Show direct speech (works with AE style quotation marks)</value>
+               </prop>
+               <prop oor:name="URL" oor:type="xs:string">
+                  <value>vnd.sun.star.script:curly_en-US.QM_en_US.ShowDirectSpeech?language=Basic&amp;location=application</value>
+               </prop>
+               <prop oor:name="Target" oor:type="xs:string">
+                  <value>_self</value>
+               </prop>
+            </node>
+            <node oor:name="N006" oor:op="replace">
+               <prop oor:name="Context" oor:type="xs:string">
+                  <value>com.sun.star.text.TextDocument</value>
+               </prop>
+               <prop oor:name="Title" oor:type="xs:string">
+                  <value xml:lang="en">Back to standard view</value>
+               </prop>
+               <prop oor:name="URL" oor:type="xs:string">
+                  <value>vnd.sun.star.script:curly_en-US.QM_en_US.StandardView?language=Basic&amp;location=application</value>
+               </prop>
+               <prop oor:name="Target" oor:type="xs:string">
+                  <value>_self</value>
+               </prop>
+            </node>
+         </node>
+      </node>
+
+      <node oor:name="AddonMenu">
+         <node oor:name="org.peter88213.curly_en-US.N001" oor:op="replace">
+            <prop oor:name="Context" oor:type="xs:string">
+               <value/>
+            </prop>
+            <prop oor:name="Title" oor:type="xs:string">
+               <value>curly en-US</value>
+            </prop>
+            <node oor:name="Submenu">
+               <node oor:name="N002" oor:op="replace">
+                  <prop oor:name="Context" oor:type="xs:string">
+                     <value>com.sun.star.text.TextDocument</value>
+                  </prop>
+                  <prop oor:name="Title" oor:type="xs:string">
+                     <value xml:lang="en">Format all to AE style</value>
+                  </prop>
+                  <prop oor:name="URL" oor:type="xs:string">
+                     <value>vnd.sun.star.script:curly_en-US.QM_en_US.Main?language=Basic&amp;location=application</value>
+                  </prop>
+                  <prop oor:name="Target" oor:type="xs:string">
+                     <value>_self</value>
+                  </prop>
+               </node>
+               <node oor:name="N003" oor:op="replace">
+                  <prop oor:name="Context" oor:type="xs:string">
+                     <value>com.sun.star.text.TextDocument</value>
+                  </prop>
+                  <prop oor:name="Title" oor:type="xs:string">
+                     <value xml:lang="en">Back to typewriter style</value>
+                  </prop>
+                  <prop oor:name="URL" oor:type="xs:string">
+                     <value>vnd.sun.star.script:curly_en-US.QM_en_US.TypewriterView?language=Basic&amp;location=application</value>
+                  </prop>
+                  <prop oor:name="Target" oor:type="xs:string">
+                     <value>_self</value>
+                  </prop>
+               </node>
+               <node oor:name="N004" oor:op="replace">
+                  <prop oor:name="URL" oor:type="xs:string">
+                     <value>private:separator</value>
+                  </prop>
+               </node>
+               <node oor:name="N005" oor:op="replace">
+                  <prop oor:name="Context" oor:type="xs:string">
+                     <value>com.sun.star.text.TextDocument</value>
+                  </prop>
+                  <prop oor:name="Title" oor:type="xs:string">
+                     <value xml:lang="en">Convert quotes into exchange format</value>
+                  </prop>
+                  <prop oor:name="URL" oor:type="xs:string">
+                     <value>vnd.sun.star.script:curly_en-US.QM_en_US.SubstituteQuotes?language=Basic&amp;location=application</value>
+                  </prop>
+                  <prop oor:name="Target" oor:type="xs:string">
+                     <value>_self</value>
+                  </prop>
+               </node>
+               <node oor:name="N006" oor:op="replace">
+                  <prop oor:name="URL" oor:type="xs:string">
+                     <value>private:separator</value>
+                  </prop>
+               </node>
+               <node oor:name="N007" oor:op="replace">
+                  <prop oor:name="Context" oor:type="xs:string">
+                     <value>com.sun.star.text.TextDocument</value>
+                  </prop>
+                  <prop oor:name="Title" oor:type="xs:string">
+                     <value xml:lang="en">Number sign to apostrophe (# → ’)</value>
+                  </prop>
+                  <prop oor:name="URL" oor:type="xs:string">
+                     <value>vnd.sun.star.script:curly_en-US.Common.Apostrophe?language=Basic&amp;location=application</value>
+                  </prop>
+                  <prop oor:name="Target" oor:type="xs:string">
+                     <value>_self</value>
+                  </prop>
+               </node>
+               <node oor:name="N008" oor:op="replace">
+                  <prop oor:name="Context" oor:type="xs:string">
+                     <value>com.sun.star.text.TextDocument</value>
+                  </prop>
+                  <prop oor:name="Title" oor:type="xs:string">
+                     <value xml:lang="en">Three periods to ellipsis (... → …)</value>
+                  </prop>
+                  <prop oor:name="URL" oor:type="xs:string">
+                     <value>vnd.sun.star.script:curly_en-US.Common.Ellipsis?language=Basic&amp;location=application</value>
+                  </prop>
+                  <prop oor:name="Target" oor:type="xs:string">
+                     <value>_self</value>
+                  </prop>
+               </node>
+               <node oor:name="N009" oor:op="replace">
+                  <prop oor:name="Context" oor:type="xs:string">
+                     <value>com.sun.star.text.TextDocument</value>
+                  </prop>
+                  <prop oor:name="Title" oor:type="xs:string">
+                     <value xml:lang="en">Two hyphens to em-dash (-- → —)</value>
+                  </prop>
+                  <prop oor:name="URL" oor:type="xs:string">
+                     <value>vnd.sun.star.script:curly_en-US.Common.Em_dash?language=Basic&amp;location=application</value>
+                  </prop>
+                  <prop oor:name="Target" oor:type="xs:string">
+                     <value>_self</value>
+                  </prop>
+               </node>
+               <node oor:name="N010" oor:op="replace">
+                  <prop oor:name="Context" oor:type="xs:string">
+                     <value>com.sun.star.text.TextDocument</value>
+                  </prop>
+                  <prop oor:name="Title" oor:type="xs:string">
+                     <value xml:lang="en">Em-dash to two hyphens (— → --)</value>
+                  </prop>
+                  <prop oor:name="URL" oor:type="xs:string">
+                     <value>vnd.sun.star.script:curly_en-US.Revert.Dash?language=Basic&amp;location=application</value>
+                  </prop>
+                  <prop oor:name="Target" oor:type="xs:string">
+                     <value>_self</value>
+                  </prop>
+               </node>
+               <node oor:name="N011" oor:op="replace">
+                  <prop oor:name="URL" oor:type="xs:string">
+                     <value>private:separator</value>
+                  </prop>
+               </node>
+               <node oor:name="N012" oor:op="replace">
+                  <prop oor:name="Context" oor:type="xs:string">
+                     <value>com.sun.star.text.TextDocument</value>
+                  </prop>
+                  <prop oor:name="Title" oor:type="xs:string">
+                     <value xml:lang="en">Show direct speech (works with AE style quotation marks)</value>
+                  </prop>
+                  <prop oor:name="URL" oor:type="xs:string">
+                     <value>vnd.sun.star.script:curly_en-US.QM_en_US.ShowDirectSpeech?language=Basic&amp;location=application</value>
+                  </prop>
+                  <prop oor:name="Target" oor:type="xs:string">
+                     <value>_self</value>
+                  </prop>
+               </node>
+               <node oor:name="N013" oor:op="replace">
+                  <prop oor:name="Context" oor:type="xs:string">
+                     <value>com.sun.star.text.TextDocument</value>
+                  </prop>
+                  <prop oor:name="Title" oor:type="xs:string">
+                     <value xml:lang="en">Back to standard view</value>
+                  </prop>
+                  <prop oor:name="URL" oor:type="xs:string">
+                     <value>vnd.sun.star.script:curly_en-US.QM_en_US.StandardView?language=Basic&amp;location=application</value>
+                  </prop>
+                  <prop oor:name="Target" oor:type="xs:string">
+                     <value>_self</value>
+                  </prop>
+               </node>
+               <node oor:name="N014" oor:op="replace">
+                  <prop oor:name="URL" oor:type="xs:string">
+                     <value>private:separator</value>
+                  </prop>
+               </node>
+               <node oor:name="N015" oor:op="replace">
+                  <prop oor:name="Context" oor:type="xs:string">
+                     <value>com.sun.star.text.TextDocument</value>
+                  </prop>
+                  <prop oor:name="Title" oor:type="xs:string">
+                     <value xml:lang="en">Help</value>
+                  </prop>
+                  <prop oor:name="URL" oor:type="xs:string">
+                     <value>vnd.sun.star.script:curly_en-US.help.show_help?language=Basic&amp;location=application</value>
+                  </prop>
+                  <prop oor:name="Target" oor:type="xs:string">
+                     <value>_self</value>
+                  </prop>
+               </node>
+            </node>
+         </node>
+      </node>
+
+      <node oor:name="Images">
+         <node oor:name="org.peter88213.curly_en-US.N001" oor:op="replace">
+            <prop oor:name="URL" oor:type="xs:string">
+               <value>vnd.sun.star.script:curly_en-US.Common.Apostrophe?language=Basic&amp;location=application</value>
+            </prop>
+            <node oor:name="UserDefinedImages">
+               <prop oor:name="ImageSmallURL" oor:type="xs:string">
+                  <value>%origin%/icons/Apostrophe_16.png</value>
+               </prop>
+               <prop oor:name="ImageBigURL" oor:type="xs:string">
+                  <value>%origin%/icons/Apostrophe_26.png</value>
+               </prop>
+            </node>
+         </node>
+         <node oor:name="org.peter88213.curly_en-US.N002" oor:op="replace">
+            <prop oor:name="URL" oor:type="xs:string">
+               <value>vnd.sun.star.script:curly_en-US.Common.Ellipsis?language=Basic&amp;location=application</value>
+            </prop>
+            <node oor:name="UserDefinedImages">
+               <prop oor:name="ImageSmallURL" oor:type="xs:string">
+                  <value>%origin%/icons/Ellipsis_16.png</value>
+               </prop>
+               <prop oor:name="ImageBigURL" oor:type="xs:string">
+                  <value>%origin%/icons/Ellipsis_26.png</value>
+               </prop>
+            </node>
+         </node>
+         <node oor:name="org.peter88213.curly_en-US.N003" oor:op="replace">
+            <prop oor:name="URL" oor:type="xs:string">
+               <value>vnd.sun.star.script:curly_en-US.Common.Main?language=Basic&amp;location=application</value>
+            </prop>
+            <node oor:name="UserDefinedImages">
+               <prop oor:name="ImageSmallURL" oor:type="xs:string">
+                  <value>%origin%/icons/Work_16.png</value>
+               </prop>
+               <prop oor:name="ImageBigURL" oor:type="xs:string">
+                  <value>%origin%/icons/Work_26.png</value>
+               </prop>
+            </node>
+         </node>
+         <node oor:name="org.peter88213.curly_en-US.N004" oor:op="replace">
+            <prop oor:name="URL" oor:type="xs:string">
+               <value>vnd.sun.star.script:curly_en-US.Revert.Dash?language=Basic&amp;location=application</value>
+            </prop>
+            <node oor:name="UserDefinedImages">
+               <prop oor:name="ImageSmallURL" oor:type="xs:string">
+                  <value>%origin%/icons/DoubleHyphen_16.png</value>
+               </prop>
+               <prop oor:name="ImageBigURL" oor:type="xs:string">
+                  <value>%origin%/icons/DoubleHyphen_26.png</value>
+               </prop>
+            </node>
+         </node>
+         <node oor:name="org.peter88213.curly_en-US.N005" oor:op="replace">
+            <prop oor:name="URL" oor:type="xs:string">
+               <value>vnd.sun.star.script:curly_en-US.Common.Em_dash?language=Basic&amp;location=application</value>
+            </prop>
+            <node oor:name="UserDefinedImages">
+               <prop oor:name="ImageSmallURL" oor:type="xs:string">
+                  <value>%origin%/icons/EmDash_16.png</value>
+               </prop>
+               <prop oor:name="ImageBigURL" oor:type="xs:string">
+                  <value>%origin%/icons/EmDash_26.png</value>
+               </prop>
+            </node>
+         </node>
+         <node oor:name="org.peter88213.curly_en-US.N006" oor:op="replace">
+            <prop oor:name="URL" oor:type="xs:string">
+               <value>vnd.sun.star.script:curly_en-US.QM_en_US.ShowDirectSpeech?language=Basic&amp;location=application</value>
+            </prop>
+            <node oor:name="UserDefinedImages">
+               <prop oor:name="ImageSmallURL" oor:type="xs:string">
+                  <value>%origin%/icons/DirectSpeech_16.png</value>
+               </prop>
+               <prop oor:name="ImageBigURL" oor:type="xs:string">
+                  <value>%origin%/icons/DirectSpeech_26.png</value>
+               </prop>
+            </node>
+         </node>
+         <node oor:name="org.peter88213.curly_en-US.N007" oor:op="replace">
+            <prop oor:name="URL" oor:type="xs:string">
+               <value>vnd.sun.star.script:curly_en-US.QM_en_US.StandardView?language=Basic&amp;location=application</value>
+            </prop>
+            <node oor:name="UserDefinedImages">
+               <prop oor:name="ImageSmallURL" oor:type="xs:string">
+                  <value>%origin%/icons/StandardView_16.png</value>
+               </prop>
+               <prop oor:name="ImageBigURL" oor:type="xs:string">
+                  <value>%origin%/icons/StandardView_26.png</value>
+               </prop>
+            </node>
+         </node>
+      </node>
+
+   </node>
+</oor:component-data>
