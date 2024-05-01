@@ -39,11 +39,11 @@ You can install several language variants in parallel. Use the exchange format t
 
 Download the variant that matches your Office installation:
 
-[LibreOffice 6+ variant (curly_en-US-L-3.3.0.oxt)](https://raw.githubusercontent.com/peter88213/curly-en-US/master/curly_en-US-L-3.3.0.oxt)
+[LibreOffice 6+ variant (curly_en-US-L-3.3.1.oxt)](https://raw.githubusercontent.com/peter88213/curly-en-US/master/curly_en-US-L-3.3.1.oxt)
 
-[Apache OpenOffice 4.x variant (curly_en-US-A-3.3.0.oxt)](https://raw.githubusercontent.com/peter88213/curly-en-US/master/curly_en-US-A-3.3.0.oxt)
+[Apache OpenOffice 4.x variant (curly_en-US-A-3.3.1.oxt)](https://raw.githubusercontent.com/peter88213/curly-en-US/master/curly_en-US-A-3.3.1.oxt)
 
-[OpenOffice.org 3.x variant (curly_en-US-3.3.0.oxt)](https://raw.githubusercontent.com/peter88213/curly-en-US/master/curly_en-US-3.3.0.oxt)
+[OpenOffice.org 3.x variant (curly_en-US-3.3.1.oxt)](https://raw.githubusercontent.com/peter88213/curly-en-US/master/curly_en-US-3.3.1.oxt)
 
 * Installation right at download, by double-clicking on the downloaded file, or via the OpenOffice/LibreOffice Extension Manager.
 
